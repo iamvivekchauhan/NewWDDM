@@ -274,3 +274,10 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+
+.center{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0077b5;
+}
