@@ -6,6 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/NewWDDM/html/css/index.css">
     <link rel="stylesheet" href="/NewWDDM/html/css/contact.css">
+    <style>
+        /* Add your responsive styles here */
+        
+        @media only screen and (max-width: 768px) {
+            /* Adjust styles for smaller screens */
+            .navbar a {
+                float: none;
+                display: block;
+                width: 100%;
+                text-align: left;
+            }
+            .image-container {
+                text-align: center;
+            }
+            #linkedin-button {
+                position: static;
+                transform: none;
+                margin-top: 10px;
+            }
+            .center {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .skills-section,
+            .education-section,
+            .projects-section,
+            .contact-section {
+                margin-top: 30px;
+            }
+            .contact-form {
+                max-width: 100%;
+            }
+        }
+    </style>
     <title>WDM 115 - Hello World</title>
 </head>
 
@@ -36,8 +70,7 @@
 
     <!-- Image container with centered image -->
     <div class="image-container">
-        <img src="https://images.augustman.com/wp-content/uploads/sites/6/2023/06/29134614/iron-man.jpg?tr=w-1920" width="1000" height="400" class="center">
-
+        <img src="https://images.augustman.com/wp-content/uploads/sites/6/2023/06/29134614/iron-man.jpg?tr=w-1920" width="100%" height="auto" class="center">
         <!-- LinkedIn button with a link to the profile -->
         <a id="linkedin-button" href="https://www.linkedin.com/in/iamvivekchauhan/" target="_blank">Want to know me more? CLICK!</a>
     </div>
@@ -77,8 +110,8 @@
             <label for="email">E-mail:</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="email">Country</label>
-            <input type="email" id="email" name="email" required>
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" required>
 
             <label for="message">Any Message:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
@@ -107,9 +140,9 @@
             </tr>
         </table>
     </div>
-    <div class=center>
+    <div class="center">
         <!--Added a video-->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
     </div>
 
 </body>
