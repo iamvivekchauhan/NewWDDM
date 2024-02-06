@@ -316,3 +316,35 @@ input[type="submit"]:hover {
 .statistic p {
     color: #777;
 }
+
+
+/* Styling for the FAQ section */
+
+.faq-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.faq-section h2 {
+    color: #27ae60;
+    /* Green color for section heading */
+}
+
+.faq {
+    margin-top: 30px;
+}
+
+.question {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.question h3 {
+    color: #333;
+}
+
+.question p {
+    color: #777;
+}
